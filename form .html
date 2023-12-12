@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validations </title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="bg">
+        <div class="formcontainer">
+            <p class="form-header">Sign up</p>
+            <form>
+                <table class="table">
+                    <tr>
+                        <td>Username  </td>
+                        <td><input type="text" maxlength="8" minlength="4"></td>
+                    </tr>
+                    <tr>
+                        <td>Password  </td>
+                        <td><input type="password"/></td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>Region</td>
+                        <td><select>
+                            <option disabled>Select Region</option>
+                            <option>India</option>
+                            <option>Sri Lanka</option>
+                            <option>Bangladesh</option>
+                            <option>Myanmar</option>
+                            <option>Pakistan</option>
+                            <option>Nepal</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <br />
+                            Terms of Services :
+                            <input name="terms" class="agree" type="radio"/>Agree
+                            <input name="terms" class="disagree" type="radio"/>Disagree
+                        <br />
+                    <br />
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>  
+        </div>
+
+    </div>
+</body>
+</html>
